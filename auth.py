@@ -12,6 +12,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 #Defines global variables we don't want changed
+#NOTE IN PRODUCTION YOU NEVER WANT TO STORE USERNAMES AND PASSWORDS IN A SCIRPT EVER!!!!
 
 USER = "devnetuser"
 PASS = "Cisco123!"
